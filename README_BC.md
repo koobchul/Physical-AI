@@ -10,15 +10,10 @@
 python main_vr_scene.py --fov-scale-x 0.5
 ```
 
-### TODO — 2026-09-22
+### TODO — 2026-09-29
 
-- [ ] 성공 당시 사용한 `main_vr_scene.py`의 실제 경로 확인
-- [ ] `--fov-scale-x` 인자 구현 여부 확인
-- [ ] GitHub 코드와 비교
-- [ ] 최종 성공 코드 보존 및 GitHub 반영
-- [ ] README 및 SETUP 문서의 실행 명령어 통일
-
-**Note:** 현재 확인한 GitHub 코드에는 `--fov-scale`만 정의되어 있으므로 실제 성공한 코드 버전을 먼저 확인할 것.
+main_vr_scene.py 에 --fov-scale-x 0.5 을 수정해서 넣어놓음. 
+이제 외부인자 설정하지 않아도 됨.
 
 ---
 
@@ -176,3 +171,11 @@ Simulation Rollout
 - [ ] BC Baseline 학습 및 평가
 
 **Research Goal:** 소수의 VR Demonstration을 활용한 Synthetic Robot Data Generation 및 Data-efficient Robot Policy Learning.
+
+
+
+# Conference Schedule
+
+## KRoC 2027
+
+- 

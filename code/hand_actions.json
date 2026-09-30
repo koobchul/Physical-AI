@@ -1,0 +1,25 @@
+{
+  "action_sets": [
+    { "name": "/actions/teleop", "usage": "leftright" }
+  ],
+  "actions": [
+    {
+      "name": "/actions/teleop/in/skeleton_right",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/teleop/in/skeleton_left",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/teleop": "Teleop",
+      "/actions/teleop/in/skeleton_right": "Right Hand Skeleton",
+      "/actions/teleop/in/skeleton_left": "Left Hand Skeleton"
+    }
+  ]
+}
